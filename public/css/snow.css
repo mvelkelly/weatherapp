@@ -1,0 +1,21 @@
+body {
+  background-image: url("https://source.unsplash.com/5AiWn2U10cw");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  text-align: center;
+}
+
+h1 {
+  width: 70%;
+  margin: auto;
+  font-size: 3em;
+}
+
+.content {
+  margin-top: 15%;
+  float: left;
+  color: white;
+  font-family: 'Grandstander', cursive;
+}
