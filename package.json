@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "start": "node app.js"
   },
   "author": "chelo",
   "license": "ISC",
@@ -14,4 +14,5 @@
     "express": "^4.17.1",
     "https": "^1.0.0"
   }
+
 }
