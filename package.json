@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-  "start": "node app.js"
+    "start": "node app.js"
   },
   "author": "chelo",
   "license": "ISC",
@@ -14,5 +14,4 @@
     "express": "^4.17.1",
     "https": "^1.0.0"
   }
-
 }

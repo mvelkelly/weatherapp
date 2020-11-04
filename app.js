@@ -4,6 +4,8 @@ const ejs = require("ejs");
 const https = require("https");
 const app = express();
 
+const rain = ["rain", "thunderstorm", "moderate rain", "light rain", "heavy intensity rain"];
+
 app.set('view engine', 'ejs');
 
 app.use(bodyParser.urlencoded({extended: true}));
@@ -13,7 +15,7 @@ app.get("/", function(req, res){
   res.render("index");
 });
 
-const rain = ["rain", "thunderstorm", "moderate rain", "light rain", "heavy intensity rain"];
+
 
 app.post("/", function(req, res){
   const query = req.body.cityName;
@@ -77,5 +79,5 @@ app.post("/", function(req, res){
 
 
 app.listen(3000, function(req, res){
-  console.log("I'm up and hard!");
+  console.log("Server is running!");
 })
